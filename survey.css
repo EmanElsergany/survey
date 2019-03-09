@@ -1,0 +1,107 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #341f97
+}
+
+.answer {
+    background-color: #2e86de;
+    margin: 10px;
+    border-radius: 50%;
+    width: 20%;
+    height: 240px;
+    box-shadow: 5px 5px rgba(34, 47, 62, 0.4),
+        5px 5px 50px #000 inset;
+    float: left
+}
+
+
+.answer header {
+    font-size: 50pt;
+    padding: 30px;
+    font-family: fantasy;
+    color: #222f3e
+}
+
+.answer span {
+    color: #FFF
+}
+
+.question {
+    margin: 20px;
+    float: right;
+    width: 74%;
+}
+
+.question fieldset {
+    border-radius: 30px;
+    font-family: "quicksand";
+    padding: 5px 15px;
+    border: none;
+    box-shadow: 5px 5px 5px 5px rgba(34, 47, 62, 0.7);
+}
+
+.question legend {
+    font-size: 20pt;
+    text-align: center;
+    color: #2e86de;
+}
+
+.question label {
+    color: #FFF;
+    font-size: 12pt
+}
+
+.question select {
+    padding: 5px;
+    font-size: 10pt;
+    font-family: "quicksand";
+    border-radius: 20px
+}
+
+.question input[type="text"] {
+    padding: 3px 5px;
+    font-size: 10pt;
+    font-family: "quicksand";
+    border-radius: 20px;
+    width: 300px
+}
+
+.question input[type="radio"] {
+    margin: 0 20px;
+    font-size: 10pt;
+    font-family: "quicksand";
+}
+
+b {
+    color: #54a0ff
+}
+
+.question input[type="checkbox"] {
+    margin: 0 13px;
+    font-size: 10pt;
+    font-family: "quicksand";
+
+}
+
+.question input[type="submit"] {
+    margin: 5px;
+    font-size: 14pt;
+    font-family: "quicksand";
+    padding: 3px;
+    background-color: rgba(34, 47, 62, 0.5);
+    color: #2e86de;
+    border: 4px solid #2e86de;
+    border-radius: 30px;
+    width: 120px;
+    float: right
+}
+
+.question input[type="submit"]:hover {
+    cursor: pointer;
+    background-color: transparent;
+    color: #DDD
+}
